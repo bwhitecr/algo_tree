@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bradwhitecross/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/bradwhitecross/StudioProjects/Fractal Tree/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7b5753286efe462c842d8bdad68f820497905b2e.jar" />
+    </item>
+
+</items>

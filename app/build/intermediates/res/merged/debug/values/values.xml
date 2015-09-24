@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bradwhitecross/StudioProjects/Fractal%20Tree/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_margin">10dp</dimen>
+    <!-- From: file:/Users/bradwhitecross/StudioProjects/Fractal%20Tree/app/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="main_col_count">2</integer>
+    <integer name="main_row_count">5</integer>
+    <integer name="max_bifurcations">4</integer>
+    <integer name="max_branches">75</integer>
+    <!-- From: file:/Users/bradwhitecross/StudioProjects/Fractal%20Tree/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Fractal Tree</string>
+    <string name="button_title_redraw">Redraw</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="text_bifurcations">Bifurcations</string>
+    <string name="text_branches">Branches</string>
+    <string name="title_activity_fractal_tree">Fractal Tree</string>
+    <!-- From: file:/Users/bradwhitecross/StudioProjects/Fractal%20Tree/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

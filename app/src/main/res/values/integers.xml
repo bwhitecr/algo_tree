@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="main_col_count">2</integer>
+    <integer name="main_row_count">5</integer>
+    <integer name="max_branches">75</integer>
+    <integer name="max_bifurcations">4</integer>
+</resources>
