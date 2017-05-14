@@ -2,11 +2,94 @@
 <items version="2" >
 
     <item
-        jar="/Users/bradwhitecross/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/bradwhitecross/StudioProjects/Fractal Tree/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7b5753286efe462c842d8bdad68f820497905b2e.jar" />
+        is-multidex="true"
+        jar="/Users/brad/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ef8a6b72714e42ea1b3f4e248d69ba8093e3d149/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/.android/build-cache/b8a908c3dc94afd0cdf3730492e83a2f41716d73/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a5ffb1f4bb060ef5554fc6612ba73da8ce4d2bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/.android/build-cache/a2309c181a983e201dcd55286c2faabb953a7154/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3a782f71bc1fb295760c869eb7957c0bc0d5fe24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b366f07453905d29d1d586e52ad1e3e8b55f4688">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c163f31d3b43d5919f8884c2ec5a93df730e6ec6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.3.2/baseLibrary-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3162679b4009fde859f7eb61c93b6f44d85b3233">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.2_0ca4f105b9713875c8c7be7d199198ed102446ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/.android/build-cache/a2309c181a983e201dcd55286c2faabb953a7154/output/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_afdf1532328be8130783314916d32269cd10f8cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/.android/build-cache/c48213b815f92bd3c5af85633f1c8be2dfbb6346/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3690796f1aca901c6dfc6083bfff4b47ef5f3820/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_83e2d7a98529bd44b6de8ea5a5b01cf089feeb9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2dee3633e5f6ec1421221913157369e03a2dcaab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/brad/.android/build-cache/64f0fe9cf21e09089c9d802d30b5f7ac610d947c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="/Users/brad/Development/Personal/Android/Fractal Tree/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01a6a6166f29280f7ee4e6087cbd2133b213cef6/classes.dex" />
     </item>
 
 </items>

@@ -3,17 +3,15 @@ package com.bwhitecr.fractal.tree;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.OvalShape;
+import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
 
 public class FractalTreeView extends ImageView {
 
-	private FractalTree tree = new FractalTree();
+	private final FractalTree tree = new FractalTree();
     private Bitmap mBitmap;
 	
 	public FractalTreeView(Context context) {
@@ -30,20 +28,23 @@ public class FractalTreeView extends ImageView {
 	}
 
     @Override
-    public Drawable getDrawable() {
-        Bitmap b = getBitmap();
-        return new BitmapDrawable(b);
+    public void draw(Canvas canvas) {
+        super.draw(canvas);
+        if (!isInEditMode()) {
+            Bitmap b = getBitmap(canvas.getHeight(), canvas.getWidth());
+            canvas.drawBitmap(b, 0, 0, null);
+        }
     }
-	
-	public void setProperties(float branches, float bifurcations) {
-		tree.setBranchCount(branches);
+
+	public void setProperties(TreeProperties treeProperties) {
+		tree.setTreeProperties(treeProperties);
         mBitmap = null;
 		this.invalidate();
 	}
 
-    private Bitmap getBitmap() {
+    private Bitmap getBitmap(int height, int width) {
         if (mBitmap == null) {
-            mBitmap = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);
+            mBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
             Canvas c = new Canvas(mBitmap);
             tree.drawFractalTree(c);
         }

@@ -1,7 +1,6 @@
 <resources>
 
     <string name="app_name">Fractal Tree</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_fractal_tree">Fractal Tree</string>
     <string name="button_title_redraw">Redraw</string>

@@ -4,16 +4,15 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-public class FractalTree {
+class FractalTree {
 
 	private Canvas mCanvas;
 	private float mAngle = 35f;
 	private float mBranchScale = 0.75f;
-	private float mBranches = 75;
 	private float mMinBranches = 10;
-	private Paint mPaint;
-	private int mBifurcations = 2;
-	
+	private final Paint mPaint;
+	private float mBranches = 75;
+	private int mBifurcations = 4;
 	
 	public FractalTree() {
 		mPaint = new Paint();
@@ -25,11 +24,9 @@ public class FractalTree {
 			mCanvas.rotate(mAngle * direction);
 			if (branch < 11)
 				mPaint.setColor(Color.GREEN);
-			else if (branch < 11)
-				mPaint.setColor(Color.DKGRAY);
 			else
 				mPaint.setColor(0xFF6F6F00);
-			mCanvas.drawRect(-branch/20f, 0, branch/20f, -branch*2, mPaint);
+			mCanvas.drawLine(-branch/20f, 0, branch/20f, -branch*2, mPaint);
 			if (branch > mMinBranches) {
 				mCanvas.translate(0, -branch*2);
 				
@@ -48,6 +45,7 @@ public class FractalTree {
 	}
 	
 	public void drawFractalTree(Canvas canvas) {
+		canvas.drawARGB(255, 0, 0, 0);
 		mCanvas = canvas;
 		mCanvas.translate(mCanvas.getWidth() / 2, mCanvas.getHeight());
 		drawBranch(mBranches, 0);
@@ -74,7 +72,7 @@ public class FractalTree {
 	}
 	
 	public void setBranchCount(float value) {
-		mBranches = value;
+		this.mBranches = value;
 	}
 	
 	public float getMinBranchCount() {
@@ -91,5 +89,10 @@ public class FractalTree {
 	
 	public void setBifurcations(int value) {
 		mBifurcations = value;
+	}
+
+	public void setTreeProperties(TreeProperties treeProperties) {
+		mBranches = treeProperties.getBranches();
+		mBifurcations = treeProperties.getBifurcations();
 	}
 }
